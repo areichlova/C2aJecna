@@ -39,6 +39,7 @@ public class Netopyr implements AnimalInterface{
 		this.doSound = "piiiiisk";
 		this.whoAmI = "netopyr";
 	}
+	
 
 	@Override
 	public String toString() {
