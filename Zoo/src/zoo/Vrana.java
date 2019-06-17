@@ -7,6 +7,7 @@ public class Vrana implements AnimalInterface{
 		// TODO Auto-generated method stub
 		return 0.5;
 	}
+	
 
 	@Override
 	public void setWeight(double weight) {
