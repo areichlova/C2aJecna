@@ -41,7 +41,6 @@ public class Netopyr implements AnimalInterface{
 	}
 	
 	
-
 	@Override
 	public String toString() {
 		return "Netopyr [weight=" + weight + "g , foodConsumption=" + foodConsumption + "mosqitos , doSound=" + doSound
