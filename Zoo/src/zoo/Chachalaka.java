@@ -15,7 +15,10 @@ public class Chachalaka implements AnimalInterface {
 
 	@Override
 	public void setWeight(double weight) {
-		this.weight = weight;// Kg
+	if(weight < 0) {
+			throw new RuntimeException("Nula ani míò!!!");
+		}
+		this.weight = weight;
 	}
 
 	@Override 
