@@ -40,6 +40,7 @@ public class Netopyr implements AnimalInterface{
 		this.whoAmI = "netopyr";
 	}
 	
+	
 
 	@Override
 	public String toString() {
