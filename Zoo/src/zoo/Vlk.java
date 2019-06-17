@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Vlk extends ArrayList implements AnimalInterface {
 	
-	double weight = 20;
+	double weight = 22;
 
 	@Override
 	public double getWeight() {
