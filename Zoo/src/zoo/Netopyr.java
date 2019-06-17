@@ -48,5 +48,4 @@ public class Netopyr implements AnimalInterface{
 	}
 
 	
-	
 }
