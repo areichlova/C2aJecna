@@ -2,6 +2,11 @@ package zoo;
 
 public class Rak implements AnimalInterface {
 	private double weight;
+	private boolean isMarine;
+
+	public boolean isMarine() {
+		return isMarine;
+	}
 
 	@Override
 	public double getWeight() {
